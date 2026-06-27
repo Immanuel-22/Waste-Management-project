@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Smart Waste Management Dashboard</h1>
+</header>
+
+<div class="dashboard">
+
+    <div class="card">
+        <h2>Report Overflowing Bin</h2>
+        <textarea placeholder="Enter Bin Location"></textarea>
+        <button onclick="reportBin()">Submit Report</button>
+    </div>
+
+    <div class="card">
+        <h2>Nearby Smart Bins</h2>
+        <ul>
+            <li>Bin A - Main Road</li>
+            <li>Bin B - Bus Stand</li>
+            <li>Bin C - Market Area</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Complaint Status</h2>
+        <p>Complaint #101 - In Progress</p>
+        <p>Complaint #102 - Resolved</p>
+    </div>
+
+    <div class="card">
+        <h2>Waste Segregation Tips</h2>
+        <ul>
+            <li>Green Bin → Organic Waste</li>
+            <li>Blue Bin → Recyclables</li>
+            <li>Red Bin → Hazardous Waste</li>
+        </ul>
+    </div>
+
+</div>
+
+<script>
+function reportBin(){
+    alert("Overflowing bin reported successfully!");
+}
+</script>
+
+</body>
+</html>
