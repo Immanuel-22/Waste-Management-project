@@ -31,7 +31,28 @@ button{
 button:hover{
     background:#218838;
 }
+back-home{
+    text-align:center;
+    margin:40px 0;
+}
 
+.home-btn{
+    display:inline-block;
+    background:#2e7d32;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.home-btn:hover{
+    background:#1b5e20;
+    transform:scale(1.05);
+    box-shadow:0 5px 12px rgba(0,0,0,0.3);
+}
 header{
     background:#28a745;
     color:white;
